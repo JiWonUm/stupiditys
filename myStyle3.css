@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+
+#mainContainer
+{
+    width: 1420px;
+    margin: 0 auto;
+}
+
+.Eng
+{
+    margin: 0px;
+    font-family: 'DM Serif Display', serif;
+}
+.Kr
+{
+    margin: 0px;
+    font-family: 'Song Myung', serif;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.center
+{
+    width:100%;
+    margin: 0px auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.left
+{
+    width:1200px;
+    margin: 0px auto;
+    text-align: left;
+    justify-content: left;
+}
+
+
+
+.text-sub
+{
+    font-weight: 300; 
+    font-size: 2rem;
+    margin: 0px; 
+    color:#26401f;;
+    padding-top: 95px;
+}
+
+.text-normal
+{
+    font-weight: 300;
+    font-size: 2.1rem;
+    color: #26401f;
+}
+
+
+.text-normal2
+{
+    font-weight: 300; 
+    font-size: 1.8rem;
+    color: rgb(132, 167, 94);
+}
+
+
+
+.text-mini
+{
+    font-weight: 20; 
+    font-size: 0.8rem;
+    padding-top: 0%;
+    color: rgb(132, 167, 94);
+}
+
+.text-mini2
+{
+    font-weight: 10; 
+    font-size: 0.9rem;
+    color: #26401f;
+    text-align:justify
+}
+
+.text-mini3
+{
+    font-weight: 10; 
+    font-size: 0.7rem;
+    color: #3e2a3d;
+}
+
+.text-mini-t
+{
+    font-weight: 100; 
+    font-size: 1.1rem;
+    color: #3e2a3d;
+}
+
+.blur
+{
+    filter: blur(0.1px);
+}
+
+.myBox
+{
+    position: absolute;
+    width: 550px;
+    height: 200px;
+    background-color: aqua;
+    padding-top: 20px;
+    left: 300px;
+
+}
+
+
+
+.help
+{
+    cursor: help;
+}
+
+.form
+{
+    position: relative;
+    top: -250px;
+}
+
+.col12 {width: 100%;}
+.col6 {width: 50%;}
+.col4 {width: 33.33%;}
+.col3 {width: 25%;}
+.col2 {width: 16.66%;}
+.col1 {width: 8.33%;}
+
+.a{
+    text-decoration-line: none;    
+}
+
+a:link {
+    color :  rgb(132, 167, 94);
+  }
+  a:visited {
+    color : rgb(132, 167, 94);
+}
+
+  a:hover {
+    color : rgb(24, 41, 6);
+  }
+  a:active {
+    color : rgb(24, 41, 6);
+  }
+
+
+
+/*메뉴바*/
+
+#main
+{
+ padding-top: 15px;
+}
+
+#memuBar{
+    display: flex;
+    width: 700px;
+    height: 0px;
+    align-items: center;
+    color:  rgb(132, 167, 94);
+    letter-spacing: 1px;
+}
+
+#img
+{
+ padding-top: 20px;
+}
+
+ul{
+    display: flex;
+    width: 800px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+ul li{
+    display: inline-flex;
+    padding: 5px 15px;
+    transition: 0.5s, color 0.5s;
+}
+
+li:hover{
+    color:  rgb(24, 41, 6);
+}
+
+
+footer p
+{
+    padding: 30px 0px;
+}
+
+#footer
+{
+    margin-bottom: 0px;
+}
+
+
+.footer{
+    background-color:  rgb(132, 167, 94);
+    height: 10px;
+}
+
+hr {
+    width : 10%;
+    padding: 0px 0px 0px 0px
+  }
+
+.hr-solid 
+{
+    border : 0px;
+    border-top: 3px solid rgb(132, 167, 94);;
+    background-color: rgb(132, 167, 94);;
+    width: 1200px;
+}
+
+.center-hr 
+{
+    margin-left : auto;
+    margin-right : auto;
+}
+
+table
+{ 
+    border-collapse : collapse; 
+    border-spacing: 0px;
+    border: none;
+    table-layout: fixed;
+}  
+
+th,td
+{
+       width: 600px;
+       height: 500px;
+       text-align: center;
+       border-spacing: 0px;
+       border: none;
+       word-wrap: break-word;
+ }
+
+ table,th
+ {
+    margin: 0px;
+    padding: 0px;
+ }

@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+.Eng
+{
+    margin: 0px;
+    font-family: 'DM Serif Display', serif;
+}
+.Kr
+{
+    margin: 0px;
+    font-family: 'Song Myung', serif;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.center
+{
+    width:100%;
+    margin: 0px auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.left
+{
+    width:1200px;
+    margin: 0px auto;
+    text-align: left;
+    justify-content: left;
+}
+
+.text-sub
+{
+    font-weight: 300; 
+    font-size: 1.7rem;
+    margin: 0px; 
+    color:  rgb(39, 66, 11);
+    padding-top: 95px;
+    margin-bottom: 20px;
+}
+
+.text-normal
+{
+    font-weight: 300; 
+    font-size: 1.8rem;
+}
+
+
+.text-normal2
+{
+    font-weight: 300; 
+    font-size: 1.8rem;
+    color: rgb(132, 167, 94);
+}
+
+.text-mini
+{
+    font-weight: 20; 
+    font-size: 0.8rem;
+    padding-top: 0%;
+    color: rgb(132, 167, 94);
+}
+
+.text-mini2
+{
+    font-weight: 10; 
+    font-size: 1rem;
+    padding-top: 0%;
+    line-height: 0.7;
+    color:  rgb(39, 66, 11);
+}
+
+.blur
+{
+    filter: blur(0.1px);
+}
+
+
+
+.help
+{
+    cursor: help;
+}
+
+.form
+{
+    position: relative;
+    top: -210px;
+}
+
+
+.form1
+{
+    border-radius: 10px; 
+    height: 10px; 
+    text-align: right; 
+    padding: 10px;
+    border:1px solid rgb(132, 167, 94);
+    box-shadow: inset 0 0 5px  rgb(132, 167, 94);; 
+}
+
+.form2
+{
+    
+    font-size: 1rem; 
+    box-sizing: border-box; 
+    border:1px solid rgb(132, 167, 94);
+    background-color:  rgb(132, 167, 94);
+    border-radius: 5px; 
+    
+}
+
+.a{
+    text-decoration-line: none;    
+}
+
+a:link {
+    color :  rgb(132, 167, 94);
+  }
+  a:visited {
+    color : rgb(132, 167, 94);
+}
+
+  a:hover {
+    color : rgb(24, 41, 6);
+  }
+  a:active {
+    color : rgb(24, 41, 6);
+  }
+
+
+
+/*메뉴바*/
+
+#main
+{
+ padding-top: 15px;
+}
+
+#memuBar{
+    display: flex;
+    width: 700px;
+    height: 0px;
+    align-items: center;
+    color:  rgb(132, 167, 94);
+    letter-spacing: 1px;
+}
+
+#img
+{
+ padding-top: 20px;
+}
+
+ul{
+    display: flex;
+    width: 800px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+ul li{
+    display: inline-flex;
+    padding: 5px 15px;
+    transition: 0.5s, color 0.5s;
+}
+
+li:hover{
+    color:  rgb(24, 41, 6);
+}
+
+
+/*슬라이드*/
+
+#slider
+{
+    display: flex;
+    justify-content: center;
+}
+
+#imageContainer
+{
+    width: 900px;
+    height: 600px;
+    display: flex;
+    overflow: hidden;
+}
+
+#imageSlider
+{
+    width: 1080px;
+    display: flex;
+    transition: transform 0.5s;
+}
+
+#interface{
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#leftArrow
+{
+    position: absolute;
+    left: 3px;
+    top: 230px;
+}
+
+#rightArrow
+{
+    position: absolute;
+    right: 5px;
+    top: 230px;
+    transform: scaleX(-1);
+}
+
+#bottomBtn
+{
+    display: flex;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 170px;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+#bottomBtn button
+{
+    padding: 4px 4px;
+    border-radius: 100%;
+    border: 3px;
+    background-color: rgba(100, 100, 100, 0.35);
+}
+
+#bottomBtn button:hover
+{
+    background-color: rgba(115, 161, 121, 0.566);
+}
+
+footer p
+{
+    padding: 30px 0px;
+}
+
+#footer
+{
+    margin-bottom: 0px;
+}
+
+.footer{
+    background-color:  rgb(132, 167, 94);
+    height: 10px;
+}
+
+
+hr {
+    width : 10%;
+    padding: 0px 0px 0px 0px
+  }
+
+.hr-solid 
+{
+    border : 0px;
+    border-top: 3px solid rgb(132, 167, 94);;
+    background-color: rgb(132, 167, 94);;
+    width: 1200px;
+}
+
+.center-hr {
+    margin-left : auto;
+    margin-right : auto;
+  }
+
+/*이미지 마우스*/
+.m_img {
+    filter: brightness(1);
+}
+ 
+.m_img:hover {
+    filter: brightness(0.5);
+}
+
+/*팝업창*/
+
+*{margin:0; padding:0;}
+.wrap{padding:10px;}
+
+.btn_open
+{
+    font-weight:bold; 
+    margin:5px; 
+    padding:4px 6px; 
+    background:#ffffff; 
+}
+
+.pop_wrap
+{
+    position:fixed; 
+    top:0; left:0; 
+    right:0; 
+    bottom:0; 
+    background:rgba(0,0,0,.5); 
+    font-size:0;
+     text-align:center;
+    }
+
+.pop_wrap:after
+{
+    display:inline-block; 
+    height:100%; vertical-align:middle; content:'';
+}
+
+.pop_wrap .pop_inner
+{
+    display:inline-block; 
+    padding:20px 30px; 
+    background:#fff; 
+    width:200px; 
+    vertical-align:middle; 
+    font-size:1rem;
+}
